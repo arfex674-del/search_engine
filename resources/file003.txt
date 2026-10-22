@@ -1,0 +1,2 @@
+the corporate portal uses a local search engine for documents
+

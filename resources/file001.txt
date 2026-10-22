@@ -1,0 +1,2 @@
+the search engine indexes documents and finds relevant information
+
