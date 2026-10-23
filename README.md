@@ -80,8 +80,11 @@ ctest --test-dir build --output-on-failure
 ## Структура проекта
 
 ```text
-include/     объявления ConverterJSON, InvertedIndex и SearchServer
-src/         реализации классов и точка входа
-tests/       модульные тесты
-resources/   демонстрационные текстовые документы
+CMakeLists.txt        головной CMake-проект
+include/              объявления ConverterJSON, InvertedIndex и SearchServer
+src/CMakeLists.txt    библиотека и основная программа
+src/                  реализации классов и точка входа
+tests/CMakeLists.txt  тестовый подпроект
+tests/                модульные тесты
+resources/            демонстрационные текстовые документы
 ```
